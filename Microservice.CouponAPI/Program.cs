@@ -1,4 +1,18 @@
+using Microservice.CouponAPI.DATA;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+
+//Add dbcontext
+builder.Services.AddDbContext<AppDBContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("DbConn"));
+}
+    );
+
 
 // Add services to the container.
 
