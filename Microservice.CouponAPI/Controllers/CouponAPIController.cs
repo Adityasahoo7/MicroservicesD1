@@ -1,5 +1,6 @@
 ﻿using Microservice.CouponAPI.DATA;
 using Microservice.CouponAPI.Models;
+using Microservice.CouponAPI.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Microservice.CouponAPI.Controllers
@@ -9,45 +10,50 @@ namespace Microservice.CouponAPI.Controllers
     public class CouponAPIController : ControllerBase
     {
         private readonly AppDBContext _context;
-        public CouponAPIController(AppDBContext context)
+        private readonly ResponseDTO _response;
+        public CouponAPIController(AppDBContext context , ResponseDTO dto)
         {
             _context = context;
+            _response = dto;
                 
         }
 
         [HttpGet]
-        public object get()
+        public ResponseDTO get()
         {
             try
             {
 
                 IEnumerable<Coupon> objlist = _context.CouponDS.ToList();
-                return objlist;
+                _response.Result = objlist;
 
             }catch(Exception ex)
             {
-                return ex.Message;
+                _response.isSuccess = false;
+                _response.Message = ex.Message;
             }
 
-            return null;
+            return _response;
 
         }
 
         [HttpGet("{id}")]
-        public object getbyid(int id)
+        public ResponseDTO getbyid(int id)
         {
             try
             {
                 Coupon objlist = _context.CouponDS.First(u => u.CouponID == id);
-                return objlist;
+                _response.Result = objlist;
 
             }
             catch (Exception ex)
             {
-                return ex.Message;
+                _response.isSuccess = false;
+                _response.Message = ex.Message;
+
             }
 
-            return null;
+            return _response;
         }
 
 
