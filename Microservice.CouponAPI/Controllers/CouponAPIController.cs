@@ -13,10 +13,10 @@ namespace Microservice.CouponAPI.Controllers
         private readonly AppDBContext _context;
         private readonly ResponseDTO _response;
         private readonly IMapper _mapper;
-        public CouponAPIController(AppDBContext context , ResponseDTO dto,IMapper mapper)
+        public CouponAPIController(AppDBContext context ,IMapper mapper)
         {
             _context = context;
-            _response = dto;
+            _response = new ResponseDTO();
             _mapper = mapper;
                 
         }
@@ -63,6 +63,74 @@ namespace Microservice.CouponAPI.Controllers
             return _response;
         }
 
+
+        [HttpPost]
+        public ResponseDTO Createcoupon([FromBody] CouponDTO dto)
+        {
+            try
+            {
+                Coupon obj = _mapper.Map<Coupon>(dto);
+                _context.Add(obj);
+                _context.SaveChanges();
+
+                _response.Result = _mapper.Map<CouponDTO>(obj);
+               // return Ok(_response);
+
+            }
+            catch (Exception ex)
+            {
+                _response.isSuccess = false;
+                _response.Message = ex.InnerException?.Message ?? ex.Message;
+                // return BadRequest(_response);
+            }
+            return _response;
+
+        }
+
+
+
+
+        [HttpPut]
+        public ResponseDTO UpdateCoupon([FromBody] CouponDTO dto)
+        {
+            try
+            {
+                Coupon obj = _mapper.Map<Coupon>(dto);
+                _context.Update(obj);
+                _context.SaveChanges();
+
+                _response.Result = _mapper.Map<CouponDTO>(obj);
+                // return Ok(_response);
+
+            }
+            catch (Exception ex)
+            {
+                _response.isSuccess = false;
+                _response.Message = ex.InnerException?.Message ?? ex.Message;
+                // return BadRequest(_response);
+            }
+            return _response;
+
+        }
+
+        [HttpDelete("{id}")]
+        public ResponseDTO DeleteCoupon(int id)
+        {
+            try
+            {
+                Coupon obj = _context.CouponDS.First(u => u.CouponID == id);
+                _context.CouponDS.Remove(obj);
+                _context.SaveChanges();
+                
+            }catch(Exception ex)
+            {
+                _response.isSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+
+
+        }
 
     }
 }
