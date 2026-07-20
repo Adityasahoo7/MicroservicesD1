@@ -1,4 +1,5 @@
-﻿using Microservice.CouponAPI.DATA;
+﻿using AutoMapper;
+using Microservice.CouponAPI.DATA;
 using Microservice.CouponAPI.Models;
 using Microservice.CouponAPI.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,12 @@ namespace Microservice.CouponAPI.Controllers
     {
         private readonly AppDBContext _context;
         private readonly ResponseDTO _response;
-        public CouponAPIController(AppDBContext context , ResponseDTO dto)
+        private readonly IMapper _mapper;
+        public CouponAPIController(AppDBContext context , ResponseDTO dto,IMapper mapper)
         {
             _context = context;
             _response = dto;
+            _mapper = mapper;
                 
         }
 
@@ -25,7 +28,9 @@ namespace Microservice.CouponAPI.Controllers
             {
 
                 IEnumerable<Coupon> objlist = _context.CouponDS.ToList();
-                _response.Result = objlist;
+                // _response.Result = objlist;
+                _response.Result = _mapper.Map<IEnumerable<CouponDTO>>(objlist);
+
 
             }catch(Exception ex)
             {
@@ -43,7 +48,9 @@ namespace Microservice.CouponAPI.Controllers
             try
             {
                 Coupon objlist = _context.CouponDS.First(u => u.CouponID == id);
-                _response.Result = objlist;
+                // _response.Result = objlist;
+
+                _response.Result = _mapper.Map<CouponDTO>(objlist);
 
             }
             catch (Exception ex)

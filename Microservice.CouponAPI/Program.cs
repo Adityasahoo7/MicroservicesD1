@@ -1,3 +1,5 @@
+using AutoMapper;
+using Microservice.CouponAPI;
 using Microservice.CouponAPI.DATA;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +14,13 @@ builder.Services.AddDbContext<AppDBContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DbConn"));
 }
     );
+
+//Using AutoMapper
+IMapper mapper = MappingConfig.RegisterMap().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
 
 
 // Add services to the container.
