@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "18rFQRltqiU=",
+  "dgSpecHash": "5NW6nZG8U74=",
   "success": true,
   "projectFilePath": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Coupon_UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
   "logs": []
 }
