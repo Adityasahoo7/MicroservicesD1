@@ -42,6 +42,21 @@ namespace Microservice.CouponAPI.Controllers
 
         }
 
+        [HttpGet("getbycode/{code}")]
+        public ResponseDTO getbycode(string code)
+        {
+            try
+            {
+                Coupon obj = _context.CouponDS.First(u => u.CouponCode.ToLower() == code.ToLower());
+                _response.Result = _mapper.Map<CouponDTO>(obj);
+            }catch(Exception ex)
+            {
+                _response.isSuccess = false;
+                _response.Message = ex.Message;
+            }
+            return _response;
+        }
+
         [HttpGet("{id}")]
         public ResponseDTO getbyid(int id)
         {
