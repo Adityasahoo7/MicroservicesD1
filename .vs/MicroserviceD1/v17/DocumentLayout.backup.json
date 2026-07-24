@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\DotNet Project\\MicroserviceD1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\service\\implementation\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\service\\implementation\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\service\\interface\\icouponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\service\\interface\\icouponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\BaseService.cs",
-              "RelativeDocumentMoniker": "Coupon_UI\\Service\\Implementation\\BaseService.cs",
-              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\BaseService.cs",
-              "RelativeToolTip": "Coupon_UI\\Service\\Implementation\\BaseService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAUwE0AAAAlAAAAAAAAAA==",
+              "Title": "RequestDTO.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Models\\RequestDTO.cs",
+              "RelativeDocumentMoniker": "Coupon_UI\\Models\\RequestDTO.cs",
+              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Models\\RequestDTO.cs",
+              "RelativeToolTip": "Coupon_UI\\Models\\RequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-21T06:07:20.43Z",
+              "WhenOpened": "2026-07-24T21:27:10.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CouponService.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\CouponService.cs",
+              "RelativeDocumentMoniker": "Coupon_UI\\Service\\Implementation\\CouponService.cs",
+              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\CouponService.cs",
+              "RelativeToolTip": "Coupon_UI\\Service\\Implementation\\CouponService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T21:12:57.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICouponService.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Interface\\ICouponService.cs",
+              "RelativeDocumentMoniker": "Coupon_UI\\Service\\Interface\\ICouponService.cs",
+              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Interface\\ICouponService.cs",
+              "RelativeToolTip": "Coupon_UI\\Service\\Interface\\ICouponService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T20:58:41.65Z",
               "EditorCaption": ""
             }
           ]
