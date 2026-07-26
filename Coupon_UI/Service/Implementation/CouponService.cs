@@ -64,12 +64,12 @@ namespace Coupon_UI.Service.Implementation
         
         public async Task<ResponseDTO?> UpdateCouponsAsync(CouponDTO dto)
         {
-           return await _baseservice.SendAsync(new RequestDTO()
-           {
-               ApiType=SD.ApiType.PUT,
-               Data=dto,
-               Url = SD.CouponApiBase+"/api/coupon"
-           })
+            return await _baseservice.SendAsync(new RequestDTO()
+            {
+                ApiType = SD.ApiType.PUT,
+                Data = dto,
+                Url = SD.CouponApiBase + "/api/coupon"
+            });
         }
     }
 }   
