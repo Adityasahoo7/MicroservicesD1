@@ -5,8 +5,8 @@ using Microservice.CouponAPI.Models.DTO;
 namespace Coupon_UI.Service.Implementation
 {
     public class CouponService:ICouponService
-    {
-        private readonly IBaseService _baseservice;
+    { 
+        private readonly IBaseService _baseservice;     
         public CouponService(IBaseService baseservice)
         {
             _baseservice = baseservice;
@@ -14,7 +14,7 @@ namespace Coupon_UI.Service.Implementation
 
         public async Task<ResponseDTO?> CreateCouponsAsync(CouponDTO dto)
         {
-            throw new NotImplementedException();
+            return await _baseservice.SendAsync(new RequestDTO)
         }
 
         public async Task<ResponseDTO?> DeleteCouponsAsync(int id)
@@ -42,4 +42,4 @@ namespace Coupon_UI.Service.Implementation
             throw new NotImplementedException();
         }
     }
-}
+}  
