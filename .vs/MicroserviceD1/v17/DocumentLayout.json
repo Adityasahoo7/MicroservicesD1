@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\DotNet Project\\MicroserviceD1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\service\\implementation\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\service\\implementation\\couponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{300DA40A-AABD-4D3F-A3C1-181623CCC865}|Microservice.CouponAPI\\Microservice.CouponAPI.csproj|d:\\dotnet project\\microserviced1\\microservice.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{300DA40A-AABD-4D3F-A3C1-181623CCC865}|Microservice.CouponAPI\\Microservice.CouponAPI.csproj|solutionrelative:microservice.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|d:\\dotnet project\\microserviced1\\coupon_ui\\service\\interface\\icouponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A10E34-FE3A-4FF5-A686-E2D23EC28685}|Coupon_UI\\Coupon_UI.csproj|solutionrelative:coupon_ui\\service\\interface\\icouponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\appsettings.json",
-              "RelativeDocumentMoniker": "Coupon_UI\\appsettings.json",
-              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\appsettings.json",
-              "RelativeToolTip": "Coupon_UI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-26T15:56:14.501Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Coupon_UI\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Coupon_UI\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-29T16:50:05.616Z",
               "EditorCaption": ""
             },
             {
@@ -55,45 +43,7 @@
               "RelativeToolTip": "Microservice.CouponAPI\\Controllers\\CouponAPIController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowCwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T15:29:22.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestDTO.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Models\\RequestDTO.cs",
-              "RelativeDocumentMoniker": "Coupon_UI\\Models\\RequestDTO.cs",
-              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Models\\RequestDTO.cs",
-              "RelativeToolTip": "Coupon_UI\\Models\\RequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T21:27:10.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CouponService.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\CouponService.cs",
-              "RelativeDocumentMoniker": "Coupon_UI\\Service\\Implementation\\CouponService.cs",
-              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Implementation\\CouponService.cs",
-              "RelativeToolTip": "Coupon_UI\\Service\\Implementation\\CouponService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA7wA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T21:12:57.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICouponService.cs",
-              "DocumentMoniker": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Interface\\ICouponService.cs",
-              "RelativeDocumentMoniker": "Coupon_UI\\Service\\Interface\\ICouponService.cs",
-              "ToolTip": "D:\\DotNet Project\\MicroserviceD1\\Coupon_UI\\Service\\Interface\\ICouponService.cs",
-              "RelativeToolTip": "Coupon_UI\\Service\\Interface\\ICouponService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-24T20:58:41.65Z"
+              "WhenOpened": "2026-07-26T15:29:22.427Z"
             }
           ]
         }

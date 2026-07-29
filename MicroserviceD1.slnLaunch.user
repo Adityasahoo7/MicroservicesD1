@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Microservice.CouponAPI\\Microservice.CouponAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Coupon_UI\\Coupon_UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

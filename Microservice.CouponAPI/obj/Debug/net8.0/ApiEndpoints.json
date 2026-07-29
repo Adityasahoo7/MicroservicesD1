@@ -124,6 +124,32 @@
     ]
   },
   {
+    "ContainingType": "Microservice.CouponAPI.Controllers.CouponAPIController",
+    "Method": "getbycode",
+    "RelativePath": "api/CouponAPI/getbycode/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microservice.CouponAPI.Models.DTO.ResponseDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Microservice.CouponAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

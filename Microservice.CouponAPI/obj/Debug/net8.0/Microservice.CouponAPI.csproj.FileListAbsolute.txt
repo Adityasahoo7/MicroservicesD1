@@ -148,3 +148,4 @@ D:\DotNet Project\MicroserviceD1\Microservice.CouponAPI\bin\Debug\net8.0\runtime
 D:\DotNet Project\MicroserviceD1\Microservice.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\DotNet Project\MicroserviceD1\Microservice.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\DotNet Project\MicroserviceD1\Microservice.CouponAPI\obj\Debug\net8.0\Microservice.CouponAPI.sourcelink.json
+D:\DotNet Project\MicroserviceD1\Microservice.CouponAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
